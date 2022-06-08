@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    border: 4px red;
+}
+.head{
+    border-bottom: 2px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+nav li {
+    display: inline;
+    padding-right: 2rem;
+
+  }
+  
+  nav li:last-child {
+    padding-right: 0;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 200; 
+
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.bannerPart{
+   display:flex;
+}
+.bannerText{
+    padding-top:2rem ;
+    padding-left: 1rem;
+    
+}
+.startHere a{
+    text-decoration:none ;
+    color:white;
+    /* Padding: 1rem 4rem; */
+    border: 4px black;
+    background-color: grey;
+    color: white;
+
+}
+.bt{
+
+}
+.section2{
+    display: flex;
+}
+.subblocks{
+    display: flex;
+}
+.startlearning{
+    text-align: center;
+}
