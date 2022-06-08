@@ -64,3 +64,15 @@ nav a:hover{
 .startlearning{
     text-align: center;
 }
+.cardContainer{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.cardSection3
+{
+    flex-basis: 33%;
+    max-width: 33%;
+    padding:2rem;
+   
+}
